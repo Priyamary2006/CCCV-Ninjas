@@ -1,4 +1,5 @@
-![image]([https://github.com/user-attachments/assets/ddfaa28d-ab28-4d70-9fb1-d10693976cb5](https://private-user-images.githubusercontent.com/18164052/379690167-35332e92-44cb-425b-9dff-27bcf1023c6c.png))
+
+<img width="1280" alt="readme-banner" src="https://private-user-images.githubusercontent.com/18164052/379690167-35332e92-44cb-425b-9dff-27bcf1023c6c.png">
 
 #  AstroLOL
 Team Name: CCCV Ninjas
