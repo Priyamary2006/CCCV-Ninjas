@@ -1,5 +1,5 @@
 
-<img width="1280" alt="readme-banner" src="[https://github.com/Priyamary2006/CCCV-Ninjas/379690167-35332e92-44cb-425b-9dff-27bcf1023c6c.png](https://raw.githubusercontent.com/Priyamary2006/CCCV-Ninjas/refs/heads/main/379690167-35332e92-44cb-425b-9dff-27bcf1023c6c.png)">
+<img width="1280" alt="readme-banner" src="https://raw.githubusercontent.com/Priyamary2006/CCCV-Ninjas/refs/heads/main/379690167-35332e92-44cb-425b-9dff-27bcf1023c6c.png">
 
 
 #  AstroLOL
