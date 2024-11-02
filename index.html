@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zodiac Sign Finder and Useless Facts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+           background-image: url(image/Galaxy.jpg);
+        }
+        .container {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        input {
+            margin: 1rem 0;
+            padding: 0.5rem;
+            width: 200px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #result {
+            margin-top: 1rem;
+            font-weight: bold;
+        }
+        #factPage {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="inputPage">
+            <h1>Zodiac Sign Finder</h1>
+            <label for="birthdate">Enter your birth date:</label>
+            <input type="date" id="birthdate" aria-label="Select your birth date">
+            <button onclick="showUselessFacts()" aria-label="Find zodiac sign">Find My Zodiac Sign</button>
+        </div>
+        <div id="factPage">
+            <h1>Useless Facts</h1>
+            <div id="factDisplay"></div>
+            <button onclick="showAnotherFact()" aria-label="Show another fact">Show Another Fact</button>
+            <button onclick="goBack()" aria-label="Go back">Go Back</button>
+        </div>
+    </div>
+
+    <script>
+        const uselessFacts = [
+            "What is blue but not heavy,'LIGHT BLUE.",
+            "Why is dark spelled with K but not with C, because we can't see in the dark..",
+            "What do you call a lesbian on fire, an 'LGBBQ'.",
+            "What's black and always on the back of the cop's car, 'THE SEAT'.",
+            "You only know that you are sleep once you are awake.",
+            "Nobody is perfect, but my crush is perfect, so my crush is nobody, nobody loves me, MY CRUSH LOVES ME!.",
+            "Do you know what is useless, look at the mirror.",
+            "What do you call a fish with no eye? Fsh.",
+            "Why don't skeletons fight each other? They don't have the guts.",
+            "What's orange and sounds like a parrot, a CARROT!",
+            "What do you call an alligator in a vest? An Investigator.",
+            "Why can't you give Elsa a balloon? Because she will let it go.",
+            "What's brown and sticky? A stick.",
+            "Why did the mushroom go to the party? Because he was a fungi.",
+            "Why did the bicycle fall over? It was two-tired."
+        ];
+
+        function showUselessFacts() {
+            document.getElementById('inputPage').style.display = 'none';
+            document.getElementById('factPage').style.display = 'block';
+            showAnotherFact();
+        }
+
+        function showAnotherFact() {
+            const factDisplay = document.getElementById('factDisplay');
+            const randomFact = uselessFacts[Math.floor(Math.random() * uselessFacts.length)];
+            factDisplay.textContent = randomFact;
+        }
+
+        function goBack() {
+            document.getElementById('inputPage').style.display = 'block';
+            document.getElementById('factPage').style.display = 'none';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Useless Fact</title>
+    <style>
+        /* Reuse the same CSS */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #121212;
+            background-image: url('image/fun.jpg');
+            background-size: cover;
+            color: #f4f4f4;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 2rem 3rem;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            color: #f4f4f4;
+            margin-bottom: 1.5rem;
+        }
+
+        #factDisplay {
+            font-size: 1.1rem;
+            color: #e0e0e0;
+            margin-top: 1rem;
+            padding: 1rem;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 6px;
+            line-height: 1.4;
+        }
+
+        .fact-button {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        button {
+            background-color: #6c63ff;
+            color: #fff;
+            border: none;
+            padding: 0.8rem 1.2rem;
+            cursor: pointer;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.2s;
+            flex: 1;
+        }
+
+        button:hover {
+            background-color: #5752d0;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Random Useless Fact</h1>
+        <div id="factDisplay"></div>
+        <div class="fact-button">
+            <button onclick="showAnotherFact()" aria-label="Show another fact">Show Another Fact</button>
+            <button onclick="window.close()" aria-label="Go back">Close</button>
+        </div>
+    </div>
+
+    <script>
+        const uselessFacts = [
+            "What is blue but not heavy? 'Light blue.'",
+            "Why is dark spelled with a 'k' instead of a 'c'? Because we can’t 'c' in the dark.",
+            "What do you call a lesbian on fire? An 'LGBBQ.'",
+            "What's black and always in the back of a cop's car? 'The seat.'",
+            "You only know you're asleep once you wake up.",
+            "Nobody is perfect, but my crush is perfect, so my crush is nobody. That means my crush loves me!",
+            "Do you know what is useless? Look in the mirror.",
+            "What do you call a fish with no eye? Fsh.",
+            "Why don’t skeletons fight each other? They don’t have the guts.",
+            "What's orange and sounds like a parrot? A carrot!",
+            "What do you call an alligator in a vest? An investigator.",
+            "Why can’t you give Elsa a balloon? Because she’ll let it go.",
+            "What’s brown and sticky? A stick.",
+            "Why did the mushroom go to the party? Because he was a fungi.",
+            "Why did the bicycle fall over? It was two-tired."
+        ];
+
+        function showAnotherFact() {
+            const factDisplay = document.getElementById('factDisplay');
+            const randomFact = uselessFacts[Math.floor(Math.random() * uselessFacts.length)];
+            factDisplay.textContent = randomFact;
+        }
+
+        // Show a fact when the page loads
+        window.onload = showAnotherFact;
+    </script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zodiac Sign Finder and Useless Facts</title>
+    <style>
+        /* General Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #121212;
+            background-image: url('image/zodia.jpg');
+            background-size: cover;
+            color: #f4f4f4;
+        }
+
+        /* Center Container Styling */
+        .container {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 2rem 3rem;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            color: #f4f4f4;
+            margin-bottom: 1.5rem;
+        }
+
+        label {
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+            display: block;
+            color: #cfcfcf;
+        }
+
+        input[type="date"] {
+            margin: 1rem 0;
+            padding: 0.7rem;
+            width: 100%;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            color: #333;
+            text-align: center;
+        }
+
+        /* Button Styling */
+        button {
+            background-color: #6c63ff;
+            color: #fff;
+            border: none;
+            padding: 0.8rem 1.2rem;
+            cursor: pointer;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.2s;
+            margin-top: 1rem;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: #5752d0;
+            transform: translateY(-2px);
+        }
+
+        #result {
+            margin-top: 1.2rem;
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: #e0e0e0;
+        }
+
+        /* Fact Page Styling */
+        #factPage {
+            display: none;
+        }
+
+        #factDisplay {
+            font-size: 1.1rem;
+            color: #e0e0e0;
+            margin-top: 1rem;
+            padding: 1rem;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 6px;
+            line-height: 1.4;
+        }
+
+        /* Fact Page Button Styles */
+        .fact-button {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        .fact-button button {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Input Page -->
+        <div id="inputPage">
+            <h1>Find Your Zodiac Sign</h1>
+            <label for="birthdate">Select Your Birth Date:</label>
+            <input type="date" id="birthdate" aria-label="Select your birth date">
+            <button onclick="openFactWindow()" aria-label="Find zodiac sign">Discover My Zodiac Sign</button>
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <script>
+       function openFactWindow() {
+            // Opens a new window displaying the fact page
+            window.open('factPage.html', '_blank',);
+        }
+    </script>
+</body>
+</html>
