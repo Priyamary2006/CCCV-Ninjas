@@ -24,7 +24,7 @@ A random useless joke.
 
 -CSS
 
--Visual Studio Code.
+-Visual Studio Code
 ### Implementation:
 Visual Studio Code
 ### Host Link: 
