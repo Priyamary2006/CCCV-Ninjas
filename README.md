@@ -6,11 +6,11 @@
 ### Team Name: CCCV Ninjas
 Team Members:
 
--Priya Mary Abraham - MBC
+-Priya Mary Abraham - MBCCET PEERMADE
 
--Sarayu Suresh - MBC
+-Sarayu Suresh - MBCCET PEERMADE
 
--Irin Ann Shaji - MBC
+-Irin Ann Shaji - MBCCET PEERMADE
 ### Project Description:
 A webpage where we can enter our date of birth and get a random useless fact.
 ### The Problem:
