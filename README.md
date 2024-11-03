@@ -44,6 +44,9 @@ Homepage: This shows the homepage of the website. <img width="1280" alt="readme-
 DOB:  This shows a webpage which allows to enter your date of birth. <img width="1280" alt="readme-banner" src="https://github.com/Priyamary2006/CCCV-Ninjas/blob/main/Date%20of%20Birth.png">
 
 Output: This shows the final output which is a useless fact. <img width="1280" alt="readme-banner" src="https://github.com/Priyamary2006/CCCV-Ninjas/blob/main/Useless%20Fact.png">
+# Video 
+https://drive.google.com/file/d/16RdZohLH1PajR7Hwm9CtUYXHOKgH_4Pb/view?usp=sharing
+This video contains the entire project.
 ## Team Contributions:
 Priya Mary Abraham: UI/UX Design
 
