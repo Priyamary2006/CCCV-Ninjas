@@ -5,8 +5,11 @@
 #  AstroLOL
 ### Team Name: CCCV Ninjas
 Team Members:
+
 -Priya Mary Abraham - MBC
+
 -Sarayu Suresh - MBC
+
 -Irin Ann Shaji - MBC
 ### Project Description:
 A webpage where we can enter our date of birth and get a random useless fact.
@@ -16,13 +19,16 @@ Finding Zodiac Sign.
 A random useless joke.
 ### Technologies uesd:
 -HTML
+
 -Javascript
+
 -CSS
+
 -Visual Studio Code.
 ### Implementation:
 Visual Studio Code
-# Installation:
-Run:
+### Host Link: 
+https://cccv-ninjas.vercel.app/
 ### Project Documentation:
 1. Function Purpose: Documents that appears to predict a zodiac sign but actually returns a random joke.
 2. Parameters:
@@ -32,3 +38,14 @@ day: Integer from 1 to 31 representing the birth day.
 4. Function Logic:
 Mentions that a partial zodiac sign check exists, but the function is intended to give humor instead.
 5. Example Usage: Shows sample input and the kind of joke output to expect.
+# Screenshot
+Homepage: This shows the homepage of the website. <img width="1280" alt="readme-banner" src="https://github.com/Priyamary2006/CCCV-Ninjas/blob/main/Homepage.png">
+DOB:  This shows the a webpage which allows to enter your date of birth. <img width="1280" alt="readme-banner" src="https://github.com/Priyamary2006/CCCV-Ninjas/blob/main/Date%20of%20Birth.png">
+Output: This shows the final output which is a useless fact. <img width="1280" alt="readme-banner" src="https://github.com/Priyamary2006/CCCV-Ninjas/blob/main/Useless%20Fact.png">
+## Team Contributions:
+Priya Mary Abraham: UI/UX Design
+
+Sarayu Suresh: Backend code
+
+Irin Ann Shaji: Backend code
+
