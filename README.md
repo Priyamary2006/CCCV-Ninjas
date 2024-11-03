@@ -17,7 +17,7 @@ A webpage where we can enter our date of birth and get a random useless fact.
 Finding Zodiac Sign.
 ### The Solution:
 A random useless joke.
-### Technologies uesd:
+### Technologies used:
 -HTML
 
 -Javascript
